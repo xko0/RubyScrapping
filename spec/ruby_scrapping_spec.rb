@@ -12,6 +12,7 @@ describe "array_of_crypto gather cryptos and their actual values" do
   end
 
   it "create an array of hash fo names and values of cryptos" do
-    expect(arrays_of_crypto).is_a? Array
+    expect(arrays_of_crypto).is_a? (Array)
+    expect(arrays_of_crypto[1]).is_a? (Hash)
   end
 end
